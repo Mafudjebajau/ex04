@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    header{
+        background: url(../imagens/tecladoluminoso2.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-clip: border-box;
+    }
+}
+
+body{
+    background: url(../imagens/pexels-phil-desforges-3335697.jpg)  center ;
+    background-size: cover;
+}
+ 
+.content{
+    background: url(../imagens/fundo-992px.jpg ) center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    color: rgb(5, 1, 22);
+    font-weight: bold;
+    text-shadow: 2px 3px 3px #666266;
+    text-align:left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+} 
+.content2{
+    background: url(../imagens/fundo-992px.jpg ) center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    color: rgb(5, 1, 22);
+    font-weight: bold;
+    text-shadow: 2px 3px 3px #666266;
+    text-align:left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+ 
+.content2 > p {
+   height: 25vh;
+   width: 25vw;
+    font-size: 0.73em;
+}
+.content > p{
+    height: 25vh;
+    width: 25vw;
+    font-size: 0.8em;
+}
+
+
+img{
+    width: 25vw;
+    height: 25vh;
+}
+
+.content > img{
+    width: 50vw;
+    height: 50vh;
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    header{
+        background: url(../imagens/tecladoluminoso.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+
+
+.content{
+    background: url(../imagens/fundo-992px.jpg ) center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    color: rgb(5, 1, 22);
+    font-weight: bold;
+    text-shadow: 2px 3px 3px #666266;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+.content2{
+    background: url(../imagens/fundo-992px.jpg ) center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    color: rgb(5, 1, 22);
+    font-weight: bold;
+    text-shadow: 2px 3px 3px #666266;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.content{
+    margin: 50px;
+    margin-top: 50px;
+    font-size: 1.25em;
+} 
+.content2 p{
+    margin: 50px;
+    margin-top: 50px;
+    font-size: 1.25em;
+}
+.content p{
+    margin: 50px;
+}
+
+img{
+    width: 50vw;
+    height: 50vh;
+}
+
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    header{
+        background: url(../imagens/teclado\ -\ Copia2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    
+.content{
+    background: url(../imagens/fundo-992px.jpg ) center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    color: rgb(5, 1, 22);
+    font-weight: bold;
+    text-shadow: 2px 3px 3px #666266;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+ .content2{
+    background: url(../imagens/fundo-992px.jpg ) center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    color: rgb(5, 1, 22);
+    font-weight: bold;
+    text-shadow: 2px 3px 3px #666266;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.content p{
+    margin: 50px;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+ .content2 p{
+    margin: 50px;
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+img{
+    width: 50vw;
+    height: 50vh;
+}
+
+
+}
+
+
+@media screen and (min-width:1200px) and (max-width:3000px) {
+    header{
+        background: url(../imagens/teclado\ 10.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    
+.content {
+    background: url(../imagens/fundo-992px.jpg ) center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    color: rgb(5, 1, 22);
+    font-weight: bold;
+    text-shadow: 2px 3px 3px #666266;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ .content2{
+    background: url(../imagens/fundo-992px.jpg ) center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    color: rgb(5, 1, 22);
+    font-weight: bold;
+    text-shadow: 2px 3px 3px #666266;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content{
+    margin: 50px;
+    margin-top: 50px;
+    font-size: 2em;
+}
+.content2 p{
+    margin: 50px;
+    margin-top: 50px;
+    font-size: 2em;
+}
+
+img{
+    width: 50vw;
+    height: 50vh;
+}
+
+
+
+}
