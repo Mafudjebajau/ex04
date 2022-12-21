@@ -49,18 +49,17 @@ header, nav{
     
 }
 nav{
-    position: absolute;
-    top: 172px;
-    text-align: right;
+    margin: auto;
+    text-align: center;
     /* background-image: linear-gradient(rgb(13, 94, 192),rgb(4, 44, 46)); */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     animation: infinite;
     animation: forwards;
     animation-duration: 2s;
     background-color: #000000c9;
     background-size: cover;
-    padding-right: 20px;
+    padding-right: 10px;
    
 }
 li{ color: aliceblue;
@@ -107,7 +106,7 @@ li#home:hover{
 }
 li{ font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-block;
-    padding: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 10px;
