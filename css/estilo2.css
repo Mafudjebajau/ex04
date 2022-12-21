@@ -35,8 +35,8 @@
     }
     li{ font-family: Verdana, Geneva, Tahoma, sans-serif;
         display: flex;
-        padding: 2px;
-        margin-left: 2px;
+        padding: 20px;
+        margin-left: 1px;
         border-radius: 10px ;
         transition-duration: .2s;
     }
