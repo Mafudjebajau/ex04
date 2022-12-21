@@ -103,7 +103,7 @@ img{
 
 /* Telas pequenas */
 
-@media screen and (min-width:600px) and (max-width:670px) {
+/* @media screen and (min-width:600px) and (max-width:670px) {
     header{
         background: url(../imagens/tecladoluminoso2.jpg) ;
         background-size: cover;
@@ -311,7 +311,7 @@ img{
 }
 
 
-}
+} */
 
 /* Tela de pc */
 
