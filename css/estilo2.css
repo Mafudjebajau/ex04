@@ -27,14 +27,14 @@
         text-shadow: 0px 0px 9px  #837c7c;
         text-decoration: none;
         font-size: 1.5em;
-        display: inline;
+        display: inline-flex;
         border-top: 1px solid whitesmoke;
         border-left: 1px solid whitesmoke;
         background-image: linear-gradient(rgba(8, 8, 8, 0.842),rgba(0, 0, 0, 0.979));
         box-shadow: 3px 3px 3px rgb(96, 94, 102);
     }
     li{ font-family: Verdana, Geneva, Tahoma, sans-serif;
-        display: inline;
+        display: inline-flex;
         padding: 2px;
         margin-left: 2px;
         border-radius: 10px ;
