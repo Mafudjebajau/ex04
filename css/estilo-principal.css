@@ -76,7 +76,7 @@ li{ color: aliceblue;
 li#home{
     box-shadow: none;
     border-bottom: 4px solid   rgb(255, 255, 255) ;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 li:hover{
@@ -87,10 +87,7 @@ li:hover{
     cursor:pointer;
     box-shadow: 5px 3px 5px rgb(1, 0, 15);
     transform: scale(1.3);
-    transform-style: preserve-3d;
-   transition-delay: 3ms;
-   transition-duration: 1ms;
-   -ms-zoom-animation: unset;
+  
     /* border-bottom: 4px solid rgb(0, 153, 255); */
     /* 
     border-top: 4px solid whitesmoke;
