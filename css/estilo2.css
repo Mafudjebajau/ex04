@@ -11,8 +11,11 @@
 
 
     nav{
-        
-        margin: auto;
+        position: absolute;
+        left: 5px;
+        top: 170px;
+        margin: 20px;
+        margin-left:0px ;
         margin-bottom: 30px;
         text-align:center;
         /* background-image: linear-gradient(rgb(13, 94, 192),rgb(4, 44, 46)); */
