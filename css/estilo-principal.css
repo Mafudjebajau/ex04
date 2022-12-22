@@ -5,10 +5,7 @@ html,body{
     width: 100vw;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 
 body{
     background-color: #666266;
@@ -203,4 +200,8 @@ footer{
    
   
    
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
 }
