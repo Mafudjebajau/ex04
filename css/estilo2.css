@@ -1,109 +1,80 @@
 @charset "UTF-8";
 
-@media screen and (min-width:1px) and (max-width:720px) {
+
+@media screen and (max-width:600px){
+
+    body{
+        background:url(../imagens/pexels-phil-desforges-3335697.jpg) ;
+        background-size: cover;
+        background-position: center;
+       
+        
+    }
+    nav{
+       margin: 2px;
+       text-align: left;
+    }
+    h2{
+        text-shadow: 3px 3px 3px #666266;
+        margin-top: 20px;
+    }
+    h2#cabecalho{
+        margin-bottom: 40px
+    }
+    .content p{
+      font-size: normal;
+      margin: 1px;
+    }
+    .content2 p{
+        font-size: small;
+        text-align: left;
+    }
+    .content3 video{
+        width: 433px;
+        height: 500px;
+    }
+    .content3{
+        background-color: #0000004b;
+        border: #2e2e2e;
+        
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:720px) {
     header{
         background: url(../imagens/tecladoluminoso2.jpg) ;
         background-size: cover;
         background-repeat: no-repeat;
-    
-        
     }
-
-
     nav{
-        position: absolute;
-        left: 5px;
-        top: 170px;
-        margin: 20px;
-        margin-left:0px ;
-        margin-bottom: 30px;
-        text-align:center;
-        /* background-image: linear-gradient(rgb(13, 94, 192),rgb(4, 44, 46)); */
-       
-        
-       
-    }
-    li{ color: aliceblue;
-        text-shadow: 0px 0px 2px  #837c7c;
-        text-decoration: none;
-        font-size: normal;
-        display: inline-flex;
-        border-top: 1px solid whitesmoke;
-        border-left: 1px solid whitesmoke;
-        background-image: linear-gradient(rgba(8, 8, 8, 0.842),rgba(0, 0, 0, 0.979));
-        box-shadow: 1px 1px 1px rgb(96, 94, 102);
-    }
-    li{ font-family: Verdana, Geneva, Tahoma, sans-serif;
-        display: inline;
-        padding: 5px;
-        margin-left: 1px;
-        border-radius: 5px ;
-        transition-duration: .2s;
-        text-decoration: none;
-    }
-    
-
-    .conteiner{
-       margin: auto;
+        text-align: left;
     }
 
-body{
-    background: url(../imagens/pexels-phil-desforges-3335697.jpg)  center ;
-    background-size: cover;
-}
- 
-.content{
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-   
-} 
-.content2{
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-  
-}
+    h2{
+        text-shadow: 3px 3px 3px #949292;
+    }
 
- 
-.content2 > p {
-   height: 25vh;
-   width: 25vw;
-    font-size: 0.73em;
-}
-.content > p{
-    height: 25vh;
-    width: 25vw;
-    font-size: 0.8em;
-}
+    .content p{
+        font-size: 1.2em;
+    }
+    .content2 p{
+        font-size: 1.1em;
+    }
 
+    .content3{
+        width: 91vw;
+    }
+    .content3 > video{
+        width: 91vw;
+    }
 
-img{
-    width: 25vw;
-    height: 25vh;
-}
-
-.content > img{
-    width: 50vw;
-    height: 50vh;
-}
 }
 
 /* Telas pequenas */
 
-/* @media screen and (min-width:600px) and (max-width:670px) {
+ /* Tela de celular  */
+
+@media screen and (min-width:720px) and (max-width:768px) {
     header{
         background: url(../imagens/tecladoluminoso2.jpg) ;
         background-size: cover;
@@ -111,131 +82,36 @@ img{
         background-attachment:fixed;
         background-clip: border-box;
     }
-
-    .conteiner{
-        margin-right: 50px ;
-        margin-left: 50px;
-    }
-
-body{
-    background: url(../imagens/pexels-phil-desforges-3335697.jpg)  center ;
-    background-size: cover;
-}
- 
-.content{
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-   
-} 
-.content2{
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-  
+h2{
+    font-size: 4em;
+    text-shadow: 3px 3px 3px #666266;
+    margin: 50px;
+    
 }
 
- 
+h2#cabecalho{
+    margin: 50px;
+}
+
+
 .content2 > p {
-   height: 25vh;
-   width: 25vw;
-    font-size: 0.73em;
-}
-.content > p{
-    height: 25vh;
-    width: 25vw;
-    font-size: 0.96em;
-}
 
-
-img{
-    width: 25vw;
-    height: 25vh;
-}
-
-.content > img{
-    width: 50vw;
-    height: 50vh;
-}
-}
- Tela de celular */
-
-@media screen and (min-width:721px) and (max-width:768px) {
-    header{
-        background: url(../imagens/tecladoluminoso2.jpg) ;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment:fixed;
-        background-clip: border-box;
-    }
-
-    .conteiner{
-        margin-right: 50px ;
-        margin-left: 50px;
-    }
-body{
-    background: url(../imagens/pexels-phil-desforges-3335697.jpg)  center ;
-    background-size: cover;
-}
- 
-.content{
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-   
-} 
-.content2{
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-  
-}
-
- 
-.content2 > p {
-   height: 25vh;
-   width: 25vw;
-    font-size: 0.95em;
-}
-.content > p{
-    height: 25vh;
-    width: 25vw;
     font-size: 1em;
 }
-
-
-img{
-    width: 25vw;
-    height: 25vh;
+.content > p{
+   
+    font-size: 1.3em;
 }
 
 .content > img{
     width: 50vw;
     height: 50vh;
+}
+.content3{
+
+}
+.content3 video{
+    width: 91vw;
 }
 }
 
@@ -247,9 +123,7 @@ img{
         background-size: cover;
         background-repeat: no-repeat;
     }
-body{
-    background: url(../imagens/pexels-phil-desforges-3335697.jpg);
-}   
+
 .conteiner{
     margin-right: 50px ;
     margin-left: 50px;
@@ -257,59 +131,37 @@ body{
 h2{
     color:whitesmoke;
     margin:80px;
-    margin-bottom:20px;
-    text-shadow:3px 3px 3px #666266;
+    margin-bottom:40px;
+    text-shadow:3px 3px 3px #949292;
     font-size: 4em;
 }
 h2#cabecalho{
-    margin-top: auto;
+    margin-bottom: 90px;
+   
 }
 
-.content{
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:justify;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-} 
-.content2{
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:justify;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-
-.content{
-    margin: 50px;
-    margin-top: 50px;
-    font-size: 1.25em;
-} 
 .content2 p{
-    margin: 20px;
-    margin-top: 20px;
-    font-size: 1.3em;
+   
+    font-size: small;
+    text-align: left;
 }
 .content p{
-    margin: 20px;
-    font-size: 1em;
+   
+    font-size: 1.3em;
 }
 
 img{
     width: 50vw;
     height: 50vh;
 }
+.content3{
+    width: 80vw;
+}
 
+.content3 > video{
+    width: 80vw;
+    
+}
 
 } 
 
@@ -326,73 +178,28 @@ img{
     margin-left: 50px;
 }
 
+
 h2{
     margin:50px ;
     font-size: 4em;
     
 }
-body{
-    background: url(../imagens/pexels-phil-desforges-3335697.jpg);
-}
     
-.content{
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:justify;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-
- .content2{
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:justify;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-
 .content p{
-    margin: 20px;
-    margin-top: 20px;
-    font-size: 1.5em;
+   
+    font-size: 1.6em;
 }
 
  .content2 p{
-    margin: 20px;
-    margin-top: 20px;
-    font-size: 1.4em;
+  
+    font-size: 1em;
 }
-
-img{
-    width: 50vw;
-    height: 50vh;
+.content3{
+    width: 80vw;
+    margin-right: -50px;
 }
-
-img#image{
-    width: 50vw;
-    height: 50vh;
-}
-.content > img{
-    width: 50vw;
-    height: 70vh;
-}
-.content2 > img{
-    width: 51vw;
-    height: 70vh;
-}
-.content2 img{
-    width: 50vw;
-    height: 70vh;
+.content3 video{
+    width: 80vw;
 }
 
 }
@@ -400,7 +207,7 @@ img#image{
 
 /* Tela final */
 
-@media screen and (min-width:1200px) and (max-width:3000px) {
+@media screen and (min-width:1200px) {
     header{
         background: url(../imagens/teclado\ 10.jpg);
         background-size: cover;
@@ -408,30 +215,11 @@ img#image{
     }
 
 
-    
-.content {
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:justify;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+h2{
+    font-size: 5em;
+    margin: 50px;
 }
- .content2{
-    background: url(../imagens/fundo-992px.jpg ) center;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display: inline-flex;
-    color: rgb(5, 1, 22);
-    font-weight: bold;
-    text-shadow: 2px 3px 3px #666266;
-    text-align:justify;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .content{
     margin: 50px;
     margin-top: 50px;
@@ -440,12 +228,21 @@ img#image{
 .content2 p{
     margin: 50px;
     margin-top: 50px;
-    font-size: 2em;
+    font-size: 1.9em;
 }
 
 img{
     width: 50vw;
-    height: 50vh;
+    height: 60vh;
+}
+img#image{
+    height: 100vh;
+}
+
+.content3 video{
+    width: 95vw;
+    height: auto;
+   
 }
 
 
