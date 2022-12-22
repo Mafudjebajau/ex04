@@ -22,19 +22,19 @@
         margin-bottom: 40px
     }
     .content p{
-      font-size: normal;
+      font-size: xx-small;
       margin: 1px;
     }
     .content2 p{
-        font-size: small;
+        font-size: xx-small;
         text-align: left;
     }
     .content3 video{
-        width: 433px;
-        height: 500px;
+        width:50vw;
+        
     }
     .content3{
-       
+       width: 50vw;
         background-color: #0000004b;
         border: #2e2e2e;
         
