@@ -27,7 +27,7 @@
         margin-bottom: 40px
     }
     .content p{
-      font-size: xx-small;
+      font-size: small;
       margin: 1px;
     }
     .content2 p{
@@ -35,11 +35,11 @@
         text-align: left;
     }
     .content3 video{
-        width:50vw;
+        width:70vw;
         
     }
     .content3{
-       width: 50vw;
+       width: 70vw;
         background-color: #0000004b;
         border: #2e2e2e;
         
