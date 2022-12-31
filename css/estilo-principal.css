@@ -60,12 +60,13 @@ nav{
     background-color: #000000c9;
     background-size: cover;
     padding-right: 10px;
+    text-decoration: none;
    
 }
 li{ color: aliceblue;
     text-shadow: 0px 0px 9px  #837c7c;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     display: inline-block;
     border-top: 1px solid whitesmoke;
     border-left: 1px solid whitesmoke;
@@ -109,6 +110,8 @@ li{ font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 10px;
     border-radius: 10px ;
     transition-duration: .2s;
+    text-decoration:none;
+    text-transform: none;
 }
 /* AQUIJ TERMINA O CABEÇALHO */
 
