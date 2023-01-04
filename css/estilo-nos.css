@@ -1,0 +1,53 @@
+@charset "UTF-8";
+html,body{
+    height: 100vh;
+    width: 100vw;
+    margin: 50px;
+}
+div .conteiner0{
+    display: inline-flex;
+    margin: auto;
+    
+}
+section{
+    background: url(../imagens/pexels-sean-whang-804269.jpg) center ;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+section#content1{
+    display: inline-flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin: 50px;
+   
+}
+section#content1 img{
+    border-radius: 50%;
+    width: 20vw;
+    height: 10vh;
+
+}
+
+section#content1 p{
+    font-size: 6em;
+    margin: 10px;
+
+}
+
+section#content2{
+    display:inline-flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin:10px;
+    margin-top: 20px;
+}
+section#content2 p{
+    font-size: 6em;
+    margin: 10px;
+}
+section#content2 img{
+    width: 50vw;
+    height: 50vh;
+}
