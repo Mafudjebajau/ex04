@@ -3,16 +3,40 @@ html,body{
     height: 100vh;
     width: 100vw;
     margin: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    color: #f5f5f5;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(../imagens/teclado.jpg);
+    background-size: cover;
+    padding: 30px;
+}
+header input{
+    margin-left: -100%;
+    border-radius: 10px;
+    width: 10vw;
+}
+
+body{
+background: url(../imagens/pexels-phil-desforges-3335697.jpg) left center;
 }
 div .conteiner0{
     display: inline-flex;
     margin: auto;
+    border: 2px solid black;
     
 }
 section{
-    background: url(../imagens/pexels-sean-whang-804269.jpg) center ;
-    color: rgb(255, 255, 255);
-    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgb(46, 43, 43);
+    font-family: monospace;
+    border: 2px solid black;
+    letter-spacing: 0px;
+    background-color: rgba(0, 0, 0, 0.671);
+    
 }
 
 section#content1{
@@ -20,34 +44,51 @@ section#content1{
     border: 2px solid black;
     border-radius: 20px;
     margin-bottom: 20px;
-    margin: 50px;
-   
+    margin: 25px;
+    margin-bottom: 0px;
+    box-shadow: inset -2px -2px 2px 2px rgba(255, 255, 255, 0.178);
 }
 section#content1 img{
-    border-radius: 50%;
-    width: 20vw;
+    border-radius: 17px;
+    width: 40vw;
     height: 10vh;
-
 }
 
-section#content1 p{
-    font-size: 6em;
+section#content1 p{ 
+    color: aliceblue;
     margin: 10px;
-
+    text-align: justify;
 }
 
 section#content2{
     display:inline-flex;
     border: 2px solid black;
     border-radius: 20px;
-    margin:10px;
-    margin-top: 20px;
+    margin: 25px;
+    box-shadow: inset -2px -2px 2px 2px rgba(255, 255, 255, 0.178);
 }
 section#content2 p{
-    font-size: 6em;
-    margin: 10px;
+    color: aliceblue;
+    margin: 20px;
+    text-align: justify; 
+    line-height: 2rem;
 }
 section#content2 img{
-    width: 50vw;
-    height: 50vh;
+    width: 40vw;
+    height: 30vh;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
 }
+footer{
+    margin-top: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+    color:#f5f5f5;
+    font-size: 1rem;
+}
+footer img{
+    width: 20vw;
+    border-radius:50%;
+    border: 2px groove rgb(24, 23, 23);
+} 
