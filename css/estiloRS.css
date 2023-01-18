@@ -1,0 +1,106 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#sec2{
+    display: inline-flex;
+    border: 1px solid blue;
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    background-color: blue ;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+section#sec2 img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    margin: 0px;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: -5px; 
+}
+
+section#sec2:hover{
+    width: 150px;
+    width: 200px;
+}
+
+span{
+    color: aliceblue;
+    font: bolder 2rem 'century gothic';
+}
+/* 1ª fase */
+
+section#sec3{
+    margin: 30px;
+    display: inline-flex;
+    border: 1px solid rgb(255, 94, 0);
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    background-color: orangered ;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+section#sec3 img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    margin: 0px;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: -5px; 
+}
+
+section#sec3:hover{
+    width: 150px;
+    width: 210px;
+}
+
+span{
+    color: aliceblue;
+    font: bolder 2rem 'century gothic';
+}
+/* 2ª fase */
+
+section#sec4{
+    display: inline-flex;
+    border: 1px solid rgb(5, 160, 165);
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    background-color: rgb(63, 141, 243) ;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+section#sec4 img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(0, 247, 255);
+    border-radius: 50%;
+    margin: 0px;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: -5px; 
+}
+
+section#sec4:hover{
+    width: 150px;
+   
+}
+
+span{
+    color: aliceblue;
+    font: bolder 2rem 'century gothic';
+}

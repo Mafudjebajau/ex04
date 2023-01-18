@@ -7,37 +7,156 @@ html,body{
     padding: 0px;
 }
 
-nav ul img{
-   display: inline-block;
-   height: 30px;
-   width: 50px;
-   /* border: 1px dotted rgb(0, 0, 0);
-   box-shadow: 3px 4px 3px rgb(54, 53, 53);
-   border-radius: 7px; */
+header{
+    position: relative;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'PermanentMarker-Regular';
+    text-emphasis: bold ;
+    background-color: rgba(0, 0, 0, 0.808);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 190px;
+     background: url(imagens/tecladoluminoso.jpg);
+    text-align: center;
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+   
+    text-shadow: 3px 3px 3px #353434;
+}
 
+h2{
+    color: white;
+    font-family: verdana ;
+    font-size: 3em;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+nav{
+    text-align: left;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    animation: infinite;
+    animation: forwards;
+    animation-duration: 2s;
+    background-color: #000000e7;
+    background-size: cover;
+    padding-right: 10px;
+    text-decoration: none;
+    margin-top: -200px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: inline-flex;
+    margin-left: -50px;
+    
+}
+nav img{
+    width: 40px;
+    height: 40px;
+    border-radius: 0px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+div#divc {
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(158, 163, 158), rgb(2, 2, 2)) ;
+    box-shadow: 5px 3px 5px rgb(1, 0, 15);
+    text-shadow: 0px 0px 9px #837c7c;
+    display: inline-block;
+    padding: 0px;
+    border-radius: 20px;
+    padding-right: -90px;
+    width: 70px;
+    height: 50px;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    margin-left: 30px;
+    border: 2px solid rgb(102, 99, 99);
+  
+}
+
+
+
+div#divc:hover{
+    width: 190px; 
+    transition: all .1s ease-in-out;
+}
+div#divc.div1:hover{
+    width: 140px;
+    transition: all .5 ease-in-out;
+}
+div#divc.div2:hover{
+    width: 120px;
+    transition: all .4 ease-in-out;
+}
+
+div#divc span{
+    font-family: 'century gothic';
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px #504f4f;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 60px;
+    padding-right: 20px;
+    text-align:left;
+    line-height: 20px;
+    margin: auto;
+    margin-left: 69px; 
+    margin-top: -75px;
+    position: relative;
+    top: -35px;
+    
+
+}
+div#divc img{
+    display: block ;
+    width: 50px;
+    height: 50px;
+    transition: all .3s ease-in-out;
+    
 }
 
 
 
 body{
     background: url(imagens/pexels-oleksandr-pidvalnyi-9822668.jpg) ;
-    backgr;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position-y: 200px  ;
 }
 section#texto{
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.493);
     font-size: 2em;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: 'century gothic';
     text-align: center;
+    text-shadow: 2px 2px 2px #353434;
     border: 3px solid rgba(245, 245, 245, 0.596);
     border-bottom: 1px dotted rgba(0, 0, 0, 0.39);
     border-radius: 20px 20px 0px 0px;
     margin-left: 50px;
     margin-right: 50px;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
     
 }
 section#imagens img{
@@ -48,18 +167,116 @@ section#imagens img{
     margin: 20px;
     
 }
-section#imagens{
+
+div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+div#secundario{
     background-color: rgba(0, 0, 0, 0.63);
-    border: 3px solid rgb(153, 153, 153);
+    border: 3px solid rgb(153, 153, 153); 
+    margin: auto;
     border-top: hidden;
     border-radius: 0px 0px 20px 20px;
-    margin: auto;
     margin-left: 50px;
     margin-right: 50px;
 }
+section#sec2{
+    display: inline-flex;
+    border: 1px solid blue;
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    background-color: blue ;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+section#sec2 img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    margin: 0px;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: -5px; 
+}
 
+section#sec2:hover{
+    width: 150px;
+    width: 200px;
+}
 
-div{
-    margin: auto;
-    text-align: center;
+span{
+    color: aliceblue;
+    font: bolder 2rem 'century gothic';
+}
+/* 1ª fase */
+
+section#sec3{
+    margin: 30px;
+    display: inline-flex;
+    border: 1px solid rgb(7, 163, 28);
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    background-color: rgb(0, 255, 42) ;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+section#sec3 img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(9, 255, 0);
+    border-radius: 50%;
+    margin: 0px;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: -5px; 
+}
+
+section#sec3:hover{
+    width: 170px;
+}
+
+span{
+    color: aliceblue;
+    font: bolder 2rem 'century gothic';
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+/* 2ª fase */
+
+section#sec4{
+    display: inline-flex;
+    border: 1px solid rgb(5, 160, 165);
+    border-radius: 50px;
+    width: 49px;
+    height: 49px;
+    background-color: rgb(63, 141, 243) ;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+section#sec4 img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(0, 247, 255);
+    border-radius: 50%;
+    margin: 0px;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: -5px; 
+}
+
+section#sec4:hover{
+    width: 150px;
+   
+}
+
+span{
+    color: aliceblue;
+    font: bolder 2rem 'century gothic';
 }
