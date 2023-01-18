@@ -14,7 +14,7 @@
     html,body{
         margin: 0px;
         padding: 0px;
-    }
+    /* }
     nav{
        margin: 2px;
        text-align: left;
@@ -25,7 +25,7 @@
     }
     h2#cabecalho{
         margin-bottom: 40px
-    }
+    } */
     .content p{
       font-size: small;
       margin: 1px;
