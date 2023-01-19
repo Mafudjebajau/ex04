@@ -1,0 +1,314 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'brk';
+    src: url(../fontes/old_london/OldLondon.ttf);
+}
+@font-face {
+    font-family: 'marker';
+    src: url(../fontes/Permanent_Marker/PermanentMarker-Regular.ttf);
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background: url(../imagens/pexels-oleksandr-pidvalnyi-9822668.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 200px  ;
+}
+
+header{
+    position: relative;
+    font-size: 2em;
+    color:  rgb(255, 145, 0);
+    font-family: 'brk';
+    text-emphasis: bold ;
+    background-color: rgba(0, 0, 0, 0.808);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 190px;
+     background: url(../imagens/tecladoluminoso.jpg);
+    text-align: center;
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+   
+    text-shadow: 3px 3px 3px #353434;
+}
+
+h2{
+    color: white;
+    font-family: verdana ;
+    font-size: 3em;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+nav{
+    text-align: left;
+    margin: auto;
+    animation-duration: 2s;
+    background-color: #00000098;
+    background: url(../imagens/2.jpg);
+    background-size: cover;
+    text-decoration: none;
+    margin-top: -200px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: inline-flex;
+    margin-left: -50px;
+    
+}
+nav img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;  
+}
+
+.div1 img{
+    margin-left: 0px;
+}
+div#divc.div1{
+    border-radius: 50%;
+    border-left: none;
+    width: 70px;
+}
+div#divc.div1 span{
+    font-family: 'marker';
+}
+div#divc.div1:hover{
+    border-radius: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-left: none;
+    width: 150px;
+    transition: all .3s ease-in-out;
+}
+
+/* fase1 */
+
+.div2 img{
+    margin-left: 0px;
+}
+div#divc.div2{
+    border-radius: 50%;
+    width: 70px;
+   
+}
+div#divc.div2 span{
+    text-align: left;
+    font-family: 'marker';
+}
+div#divc.div2:hover{
+    border-left: none;
+    width: 140px;
+    transition: all .3s ease-in-out;
+}
+/* fase2 */
+.div3 img{
+    margin-left: 0px;
+}
+div#divc.div3{
+    border-radius: 50%;
+    width: 70px;
+   
+}
+div#divc.div3 span{
+    text-align: left;
+    font-family: 'marker';
+}
+div#divc.div3:hover{
+    border-left: none;
+}
+
+a{
+    text-decoration: none;
+}
+div#divc {
+    background-image: linear-gradient(360deg, rgb(0, 0, 0), rgb(1, 18, 43));
+    background: url(../imagens/3.jpg) left;
+    display: inline-flex;
+    border-radius: 20px;
+    height: 70px;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+    margin-left: 30px;
+    border: 1px solid rgb(102, 99, 99);
+}
+
+
+
+div#divc:hover{
+    width: 200px;
+    border-radius: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: all .1s ease-in-out;
+    line-height: 43px;
+}
+
+div#divc span{
+    font-family: 'brk';
+    color: rgb(156, 221, 252);
+    text-shadow: 2px 2px 2px #000000;
+    font-weight: bolder;
+    font-size: 1.5em;
+    line-height: 50px;
+    margin: auto;
+    margin-left: 5px;
+   
+    
+
+}
+div#divc img{
+    width: 70px;
+    height: 70px;
+    transition: all .3s ease-in-out;
+    
+}
+
+
+
+
+section#texto{
+    color: rgb(255, 145, 0);
+    background-color: rgba(0, 0, 0, 0.493);
+    background: url(../imagens/4.jpg);
+    background-size: cover;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'marker';
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+    border: 3px solid rgba(245, 245, 245, 0.596);
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.39);
+    border-radius: 20px 20px 0px 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div#secundario{
+    background-color: rgba(0, 0, 0, 0.63);
+    border: 3px solid rgb(153, 153, 153); 
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: hidden;
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+section#sec2{
+    display: inline-flex;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 49px;
+    height: 49px;
+    background-color: rgb(0, 0, 0) ;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+section#sec2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 0px;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: -5px; 
+}
+
+section#sec2:hover{
+    width: 150px;
+    width: 200px;
+}
+
+span{
+    color: aliceblue;
+    font: bolder 2rem 'century gothic';
+}
+/* 1ª fase */
+
+section#sec3{
+    margin: 30px;
+    display: inline-flex;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 49px;
+    height: 49px;
+    background-color: rgb(0, 0, 0) ;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+section#sec3 img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 0px;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: -5px; 
+}
+
+section#sec3:hover{
+    width: 170px;
+}
+
+/* span{
+    color: aliceblue;
+    font: bolder 2rem 'century gothic';
+    text-decoration: none;
+} */
+a{
+    text-decoration: none;
+}
+/* 2ª fase */
+
+section#sec4{
+    display: inline-flex;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 49px;
+    height: 49px;
+    background-color: rgb(0, 0, 0) ;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+section#sec4 img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+   
+    margin: 0px;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-bottom: -5px; 
+}
+
+section#sec4:hover{
+    width: 150px;
+    border-radius: 10px;
+   
+   
+}
+
+/* span{
+    color: aliceblue;
+    font: bolder 2rem 'century gothic';
+} */

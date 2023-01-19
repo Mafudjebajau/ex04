@@ -14,10 +14,8 @@
     html,body{
         margin: 0px;
         padding: 0px;
-    /* }
-    nav{
-       margin: 2px;
-       text-align: left;
+    } 
+  
     }
     h2{
         text-shadow: 3px 3px 3px #666266;
@@ -25,13 +23,13 @@
     }
     h2#cabecalho{
         margin-bottom: 40px
-    } */
+    } 
     .content p{
-      font-size: small;
+      font-size:.55rem;
       margin: 1px;
     }
     .content2 p{
-        font-size: xx-small;
+        font-size: .4rem;
         text-align: left;
     }
     .content3 video{
